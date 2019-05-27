@@ -5,7 +5,7 @@ set(CMAKE_C_FLAGS "-Wall -std=c17")
 
 project(snake)
 
-add_executable(snake
+add_executable(${PROJECT_NAME}
 	src/game.h
 	src/game.c
 )

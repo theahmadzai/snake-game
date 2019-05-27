@@ -30,3 +30,4 @@ struct STAGE {
 };
 
 void setup_stage(struct STAGE*);
+void* resizeHandler(int);
